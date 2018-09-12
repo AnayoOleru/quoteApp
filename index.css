@@ -39,53 +39,17 @@ html {height: 100%; position: relative;}
   text-align: center;
   margin-top: 26%;
 }
-.quotebox #Results{
-  width: 100%;
-  font-size: 125%;
-  position: fixed;
-}
-.w3-container{
-  margin-top: 20%;
-}
+
 .copyright{
   color: #cc020c;
   font-weight: bold;
 }
 
-@media only screen and (max-width: 800px){
-    .quotebox{
-      margin-top: 33%;
-    }
-}
 
-@media only screen and (max-width: 700px){
-    .quotebox{
-      margin-top: 39%;
-    }
-}
-
-
-@media only screen and (max-width: 600px){
-    .quotebox{
-      margin-top: 42%;
-    }
-}
-
-@media only screen and (max-width: 500px){
-    .quotebox{
-      margin-top: 20%;
-      font-weight: bold;
-    }
-}
-@media only screen and (max-width: 550px) and (min-width: 400px){
-    .quotebox{
-      margin-top: 48%;
-    }
-}
-/*set*/
-@media only screen and (max-width: 400px) {
-    .quotebox{
-      margin-top: 70%;
-      font-weight: bold;
-    }
+#Results{
+  width: 100%;
+  position: relative;
+  text-align: center;
+  margin-top: 25px;
+  font-size: 150%;
 }

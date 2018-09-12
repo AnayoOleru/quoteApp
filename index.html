@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="icon" type="image/ico" href="Images/icon.jpg"/>
+	<link rel="stylesheet" type="text/css" href="index.css">
+	<script type="text/javascript" src="index.js"></script>
+	<title>QuoteApp | Anayo Oleru</title>
+</head>
+<body>
+
+ <div class="quotebox"><h1 id="Results"></h1></div>
+
+ <div class="bgimg w3-display-container w3-animate-opacity w3-text-white">
+  <div class="w3-display-topleft w3-padding-large w3-xlarge">
+    <a href="about.html">QuoteApp</a>
+  </div>
+
+  
+
+  <div class="w3-display-middle">
+    <h1 class="w3-jumbo w3-animate-top">QuoteApp</h1>
+    <hr class="w3-border-grey" style="margin:auto;width:40%">
+
+    <form class="w3-container">
+<input class="w3-input w3-border" id="text1" type="text" placeholder="add quotes" pattern="{3}" title="Quotes should not be more than 10">
+</form>
+
+    
+    <div>
+  <button class="w3-button w3-black" onclick="save_to_array()">Add</button>
+  <br>
+  <button class="w3-button w3-black" id = "display" onclick="display_array()">Display</button>
+</div>
+  </div>
+
+  <div class="w3-display-bottomleft w3-padding-large">
+   <a href="#">Anayo Oleru</a><span class="copyright"> ©2018</span>
+  </div>
+</div>
+
+</body>
+</html>
